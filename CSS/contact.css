@@ -1,0 +1,309 @@
+.top ul {
+    list-style: none; 
+    display: inline;
+}
+
+.top{
+	float: right;
+	height: 25px;
+}
+
+.top ul li{
+	float: left;
+	padding: 0 6px;
+}
+
+.n{
+	border-bottom: 2px solid grey;
+}
+
+.m{
+	margin-left: 15px;
+}
+
+#navigation_bar {
+ 	margin-top: 0px;
+    background: #f7f7f9;
+    opacity: .6;
+    overflow: hidden;
+}
+
+#navigation_bar ul {
+    margin-top: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+#navigation_bar ul li {
+    display: inline-block;
+    margin: 10 0px;
+}
+
+#navigation_bar ul li a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    padding: 10px 20px;
+}
+
+#navigation_bar ul li a:hover {
+    color: grey;
+}
+
+.border {
+    border-left: 2px solid #EBEBEB;
+    border-right: 2px solid #EBEBEB;
+    margin-top: -10px;
+}
+
+.border1 {
+    border-right: 2px solid #EBEBEB;
+        margin-top: -10px;
+}
+
+.nn{
+      position: relative;
+      overflow: hidden;
+      height: 225px;
+}
+
+.nav_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -25%);
+    
+}
+
+
+.map h1{
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px 0;
+}
+
+.contactbtn{
+    height: 60px;
+    width: 100%;
+    font-size: 25px;
+    background-color: #609EBB;
+    color: white;
+    border: 1px solid #609EBB;
+    margin-top: 65px
+}
+
+.con_list ul{
+    list-style: none;
+    padding-left: 1px
+}
+
+.con_list ul li{
+    padding-top: 20px
+}
+
+.con_list ul li a{
+    text-decoration: none;
+    color: #3E4041
+}
+
+.con_text h2{
+    margin-top: 60px;
+    margin-left: 75px;
+}
+
+.btnsend{
+    float: right;
+    margin-right: 50px;
+    margin-top: 12px; 
+    background-color: #609EBB;
+    color: white;border: 1px solid #609EBB;
+    width: 90px;
+    height: 35px;
+}
+
+.con_text form textarea{
+    margin-left: 16px;
+}
+
+.con_text form input {
+    width: 27%;
+    height: 40px;
+    padding-left: 20px;
+    margin-left: 15px;
+}
+
+.con_text form{
+    margin-left: 65px;
+    margin-top: 30px}
+
+
+
+.h{
+    background: #f4f4f4;
+    padding: 60px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.help{
+    border-right: 2px solid grey;
+}
+
+
+.help h4, .help1 h4{
+    font-weight: bolder;
+}
+
+.help_button, .help1_button{
+    padding: 5px 25px;
+    background: #555555;
+    color: white;
+    border:none;
+}
+
+.help_button:hover{
+    background: black;
+}
+
+.input{
+    padding: 5px 10px;
+}
+
+.input_btn{
+    padding: 4px 10px;
+    margin-left: -4px;
+} 
+
+
+
+
+.footer{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.foot{
+    text-align: left;
+    padding: 40px 0;
+}
+
+.foot ul li {
+    list-style: none;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.foot ul li a{
+    color: grey;
+}
+
+.foot ul li a:hover{
+    color: black;
+}
+
+.footer h4, .foot h4{
+    font-weight: bolder;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+
+.end{
+    padding: 30px 0;
+    border-top: 2px solid grey;
+}
+
+
+@media (max-width: 767px) 
+{ 
+    .nav_end{
+        visibility: hidden;
+    }
+
+    .n{
+        height: 20px;
+    }
+
+     .e{
+        text-align: center;
+    }
+
+    .gmap{
+        height: 600px;
+
+    }
+    
+    .help, .help1{
+        text-align: center;
+        margin: 40px 0;
+        border-right: none;
+    }
+
+    .foot{
+        text-align: center;
+    }
+
+    .foot h4, .footer h4{
+        margin-left: 35px;
+    }
+
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) 
+{   
+
+    .n{
+        height: 20px;
+    }
+
+    .e{
+        text-align: center;
+    }
+
+    .gmap{
+        height: 600px;
+
+    }
+
+    .help, .help1{
+        text-align: center;
+        margin: 40px 0;
+        border-right: none;
+    }
+
+    .foot{
+        text-align: center;
+    }
+
+    .foot h4, .footer h4{
+        margin-left: 35px;
+    }
+
+
+ }
+
+
+

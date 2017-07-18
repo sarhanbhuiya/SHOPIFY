@@ -1,0 +1,477 @@
+.top ul {
+    list-style: none; 
+    display: inline;
+}
+
+.top{
+	float: right;
+	height: 25px;
+}
+
+.top ul li{
+	float: left;
+	padding: 0 6px;
+}
+
+.n{
+	border-bottom: 2px solid grey;
+}
+
+.m{
+	margin-left: 15px;
+}
+
+#navigation_bar {
+ 	margin-top: 0px;
+    background: #f7f7f9;
+    opacity: .6;
+    overflow: hidden;
+}
+
+#navigation_bar ul {
+    margin-top: 15px;
+    list-style: none;
+    text-align: center;
+}
+
+#navigation_bar ul li {
+    display: inline-block;
+    margin: 10 0px;
+}
+
+#navigation_bar ul li a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    padding: 10px 20px;
+}
+
+#navigation_bar ul li a:hover {
+    color: grey;
+}
+
+.border {
+    border-left: 2px solid #EBEBEB;
+    border-right: 2px solid #EBEBEB;
+    margin-top: -10px;
+}
+
+.border1 {
+    border-right: 2px solid #EBEBEB;
+        margin-top: -10px;
+}
+
+.nn{
+      position: relative;
+      overflow: hidden;
+      height: 225px;
+}
+
+.nav_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -25%);
+    
+}
+
+
+
+
+.search h2 {
+    font-size: 25px
+}
+
+
+.customsearch {
+    margin-left: -15px;
+    margin-top: 40px;
+}
+
+.customform {
+    height: 45px
+}
+
+.custombtn {
+    height: 45px
+}
+
+.custombtn {
+    border-radius: 0px;
+    background-image: none;
+    background-color: #353E47;
+    color: white
+}
+
+.categories {
+    margin-top: 50px;
+}
+
+.categories h2 {
+    font-size: 25px
+}
+
+.categories ul {
+    list-style: none;
+    margin-left: -38px
+}
+
+.categories ul li {
+    padding-top: 15px
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: #797A7A;
+}
+
+.categories ul li a:hover {
+    color: #3C3C3C;
+}
+
+.counter {
+    float: right;
+    margin-right: 36px;
+}
+
+
+.recentpost {
+    margin-top: 55px;
+}
+
+.recentpost h2 {
+    font-size: 25px
+}
+
+.recentpost ul {
+    list-style: none;
+    margin-left: -38px
+}
+
+.recentpost ul li {
+    padding-top: 15px
+}
+
+.recentpost ul li a {
+    text-decoration: none
+}
+
+.discrip {
+    float: right;
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+
+.collection_list {
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.collection_list ul {
+    list-style: none
+}
+
+
+.collection_list ul li {
+    float: left;
+    text-align: center;
+   
+}
+
+.collection_list ul li input {
+    width: 35px;
+    height: 20px;
+}
+
+
+
+
+
+.products{
+    position: relative;
+}
+
+.s{
+    background: #FF8A8D;
+    width: 12%;
+    height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 107px;
+    right: 17px;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border:2px solid red;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    display: none;
+}
+
+.products:hover .overlay{
+    display: block;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.product_btn{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-25%, -25%);
+    background-color: #609EBB;
+    border: 1px solid #609EBB;
+    color: white;
+    font-size: 12px;
+    border-radius: 2px;
+    padding: 5px 36px 5px;
+}
+
+
+.b h5{
+    padding: 10px 0;
+    font-weight: bolder;
+}
+
+.b p{
+    padding-bottom: 20px;
+}
+
+
+.npbtn {
+    float: right;
+    margin-top: 45px;
+    margin-bottom: 45px
+}
+
+.btn-group>button {
+    margin-right: 4px;
+    border-radius: 0px;
+    background-image: none;
+    background-color: white;
+    color: #353E47
+}
+
+.btn-group>button:hover {
+    background-image: none;
+    background-color: #353E47;
+    color: white
+}
+
+
+.h{
+    background: #f4f4f4;
+    padding: 60px;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.help{
+    border-right: 2px solid grey;
+}
+
+
+.help h4, .help1 h4{
+    font-weight: bolder;
+}
+
+.help_button, .help1_button{
+    padding: 5px 25px;
+    background: #555555;
+    color: white;
+    border:none;
+}
+
+.help_button:hover{
+    background: black;
+}
+
+.input{
+    padding: 5px 10px;
+}
+
+.input_btn{
+    padding: 4px 10px;
+    margin-left: -4px;
+} 
+
+
+
+
+.footer{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.foot{
+    text-align: left;
+    padding: 40px 0;
+}
+
+.foot ul li {
+    list-style: none;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.foot ul li a{
+    color: grey;
+}
+
+.foot ul li a:hover{
+    color: black;
+}
+
+.footer h4, .foot h4{
+    font-weight: bolder;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0px 15px;
+    margin-top: 20px;
+}
+
+.end{
+    padding: 30px 0;
+    border-top: 2px solid grey;
+}
+
+
+
+
+@media (max-width: 767px) 
+{ 
+    .nav_end{
+        visibility: hidden;
+    }
+
+    .n{
+        height: 20px;
+    }
+
+    .b{
+        text-align: center;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+    .s {
+        position: absolute;
+        top: 80px;
+        right: 17px;
+    }
+
+    .num1{
+        padding: 20px;
+    }
+
+    .num1 h2{
+        text-align: center;
+    }
+
+    .collection_list ul li{
+        margin-left: 180px;
+    }
+
+    .help, .help1{
+        text-align: center;
+        margin: 40px 0;
+        border-right: none;
+    }
+
+    .foot{
+        text-align: center;
+    }
+
+    .foot h4, .footer h4{
+        margin-left: 35px;
+    }
+
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) 
+{   
+
+    .n{
+        height: 20px;
+    }
+
+    .b{
+        text-align: center;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+     .s {
+        position: absolute;
+        top: 80px;
+        right: 17px;
+    }
+
+    .num1{
+        padding: 20px;
+    }
+
+    .num1 h2{
+        text-align: center;
+    }
+
+    .w{
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    .collection_list ul li{
+        margin-left: 250px;
+    }
+
+    .help, .help1{
+        text-align: center;
+        margin: 40px 0;
+        border-right: none;
+    }
+
+    .foot{
+        text-align: center;
+    }
+
+    .foot h4, .footer h4{
+        margin-left: 35px;
+    }
+
+
+ }
+
+
